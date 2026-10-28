@@ -12,9 +12,17 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap; 
-
-
   }
+
+
+  @font-face {
+    font-family: 'Hoefler Text Ornaments';
+    src: url('fonts/Hoefler-Text-Ornaments.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+  }
+
   #header {
     background: linear-gradient(135deg, #000000, #720000);
     height: 80vH;
@@ -459,6 +467,7 @@ html,body {
   }
   #section1 {
     height: 600px;
+    margin-bottom: 200px;
   }
 
 
@@ -502,7 +511,7 @@ html,body {
   #section2 {
     height: 600px;
     text-align: center;
-    margin-bottom: 100%;
+    margin-bottom: 400px;
   }
   #section2Header {
     font-family: 'Casino Book';
